@@ -1,0 +1,36 @@
+cat > README.md << EOF
+# CSS Basic Project
+
+This directory contains the HTML and CSS files for the CSS basic project.
+
+- index.html – Homepage
+- tweets.html – Tweets page
+- base.css – Base CSS styles
+- styles.css – Additional custom CSS
+EOF
+ls
+ls
+ls
+ls
+pwd
+echo "<!DOCTYPE html>" > index.html
+echo "<html lang=\"en\">" >> index.html
+echo "<head>" >> index.html
+echo "  <meta charset=\"UTF-8\">" >> index.html
+echo "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> index.html
+echo "  <title>TechCon 2024</title>" >> index.html
+echo "  <link href=\"base.css\" rel=\"stylesheet\">" >> index.html
+echo "  <link href=\"styles.css\" rel=\"stylesheet\">" >> index.html
+echo "</head>" >> index.html
+echo "<body>" >> index.html
+echo "  <header>" >> index.html
+echo "    <h1>TechCon 2024</h1>" >> index.html
+echo "    <nav>" >> index.html
+echo "      <ul>" >> index.html
+echo "        <li><a href=\"about.html\">About</a></li>" >> index.html
+echo "        <li><a href=\"schedule.html\">Schedule</a></li>" >> index.html
+echo "        <li><a href=\"register.html\">Register</a></li>" >> index.html
+echo "        <li><a href=\"contact.html\">Contact</a></li>" >> index.html
+echo "      </ul>" >> index.html
+echo "    </nav>" >> index.html
+echo "  </header>" >> index.html
